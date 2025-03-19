@@ -1,0 +1,37 @@
+# Compilación de Java
+*.class
+
+# Archivos de NetBeans
+nbproject/private/
+build/
+dist/
+
+# Archivos generados por Maven
+target/
+*.log
+
+# Archivos de NetBeans específicos del usuario
+nbproject/private/
+
+# Archivos de configuración de NetBeans
+**/nbproject/private/
+**/nb-configuration.xml
+
+# Archivos de caché y logs
+hs_err_pid*
+
+# Archivos de IDEs
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de dependencias descargadas por Maven
+.mvn/
+!**/src/main/**
+!**/src/test/**
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
